@@ -106,6 +106,7 @@ int backgroundColor=-65536;
 			//10. Find a scary sound and put it in the _04_amazing_games._1_scary_maze package (where you put your maze picture). 
 			//    You can find a sound on freesound.org. Log in as leagueofamazing/code4life.		
 			//11. Play the scary sound. Hint: use the playScarySound method with the name of your sound file		
+playScarySound("standardScarySound.wav");
 
 			
 		}	
@@ -113,7 +114,7 @@ int backgroundColor=-65536;
 
 		//12. Find a scary image and drop it into the _04_amazing_games._1_scary_maze package. 
 		//    Use the showScaryImage method below and send it the name of your picture file
-		
+		showScaryImage("scaryImage.JPG");
 		
 	}
 	
